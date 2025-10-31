@@ -39,7 +39,16 @@ The `documentation/` directory contains our research reports:
 - Polyreactivity research report
 - AC-SINS baseline model report
 
-The `literature_research/` directory contains our literature research and citations.
+### Literature Research
+
+The `literature_research/` directory contains our literature research and citations:
+
+- Antibody trends analysis (2024-2025)
+- Analysis of AbDev target assays
+- Biophysical characterization analysis
+- HIC baseline model report
+- Polyreactivity research report
+- AC-SINS baseline model report
 
 ### Framework
 
