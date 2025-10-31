@@ -17,6 +17,12 @@ The `code/` directory contains our FLAb framework implementation, including:
 - Developability prediction models
 - Ensemble methods
 
+The `flab_framework/` directory contains the complete FLAb framework implementation.
+
+The `ml_algorithms/` directory contains implementations of various machine learning algorithms used in our approach.
+
+The `scripts/` directory contains various scripts used for data processing, model training, and result generation.
+
 ### Results
 
 The `results/` directory contains our prediction results:
@@ -33,6 +39,16 @@ The `documentation/` directory contains our research reports:
 - Polyreactivity research report
 - AC-SINS baseline model report
 
+The `literature_research/` directory contains our literature research and citations.
+
+### Framework
+
+The `framework/` directory contains our informational theory framework implementation.
+
+### Markov Models
+
+The `markov_models/` directory contains our Markov model implementations, including surprisal analysis.
+
 ## Approach
 
 Our solution improves feature quality and model performance by:
@@ -47,9 +63,9 @@ Our solution improves feature quality and model performance by:
 
 To use our code:
 
-1. Navigate to the `code/flab_framework` directory
+1. Navigate to the desired directory (code/flab_framework, ml_algorithms, scripts, etc.)
 2. Install required dependencies
-3. Run the desired modules
+3. Run the desired modules or scripts
 
 Detailed usage instructions are included in each module.
 
@@ -60,4 +76,3 @@ If you use our code or data, please cite our work and the competition organizers
 ## License
 
 This work is licensed under the MIT License.
-
