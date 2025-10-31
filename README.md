@@ -85,3 +85,4 @@ If you use our code or data, please cite our work and the competition organizers
 ## License
 
 This work is licensed under the MIT License.
+\n## Literature Research\n\nThis repository includes comprehensive literature research conducted during the development of our antibody developability prediction models. The research encompasses:\n\n- Project memory files documenting key research findings\n- User research files with analysis of antibody trends and assays\n- Technical documentation of implemented models and frameworks\n- Implementation plans and gap analysis\n- Investigation reports and validation documentation\n\nAll literature research is available in the `literature_research` directory, with proper APA citations provided in `literature_research/citations.md`.
