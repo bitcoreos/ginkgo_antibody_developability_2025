@@ -10,10 +10,6 @@ import numpy as np
 import pandas as pd
 from typing import Dict, List, Any
 
-# Add the path to import ESM2Integrator
-sys.path.append('/a0/bitcore/workspace/ml_algorithms/protein_language_models')
-
-try:
     from esm2_integrator import ESM2Integrator
 except ImportError:
     print("Warning: ESM2Integrator not found. Please ensure the module is properly installed.")

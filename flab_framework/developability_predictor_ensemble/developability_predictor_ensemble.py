@@ -11,9 +11,6 @@ import numpy as np
 from typing import Dict, List, Any
 
 # Add paths for ensemble methods
-sys.path.append('/a0/bitcore/workspace/ml_algorithms/ensemble_diversity')
-sys.path.append('/a0/bitcore/workspace/ml_algorithms/ensemble_guardrails')
-sys.path.append('/a0/bitcore/workspace/ml_algorithms/dynamic_ensemble')
 
 # Import ensemble methods
 from ensemble_calibration import EnsembleStrategy, CalibrationGuardrails, DiversityMeasures

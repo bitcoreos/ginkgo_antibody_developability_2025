@@ -9,7 +9,6 @@ import os
 import numpy as np
 
 # Add the research directory to the path to import the MultiChannelInfoTheory class
-sys.path.append('/a0/bitcore/workspace/research/advanced_ml_frameworks/src')
 
 try:
     from multi_channel_info_theory import MultiChannelInfoTheory

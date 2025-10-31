@@ -11,7 +11,7 @@ BITCORE employs a comprehensive feature engineering pipeline that extracts meani
 Structural features capture the physicochemical properties of amino acids in antibody sequences.
 
 #### Generation Process
-- Script: `/a0/bitcore/workspace/scripts/generate_structural_features_heldout.py`
+- Script: `scripts/generate_structural_features_heldout.py`
 - Method: Dictionary-based lookup of amino acid properties
 - Properties: Hydrophobicity, charge, aromaticity
 
@@ -29,7 +29,7 @@ Structural features capture the physicochemical properties of amino acids in ant
 Complementarity Determining Region (CDR) features capture the structural characteristics of antibody binding regions.
 
 #### Generation Process
-- Script: `/a0/bitcore/workspace/research/bioinformatics/evidence_based_cdr_features.py`
+- Script: `scripts/evidence_based_cdr_features.py`
 - Method: Evidence-based extraction using regex patterns
 - Regions: CDR-H1, CDR-H2, CDR-H3
 
@@ -47,7 +47,7 @@ Complementarity Determining Region (CDR) features capture the structural charact
 Aggregation propensity features predict the likelihood of antibody aggregation, which is critical for developability.
 
 #### Generation Process
-- Script: `/a0/bitcore/workspace/research/bioinformatics/aggregation_propensity_features.py`
+- Script: `scripts/aggregation_propensity_features.py`
 - Target Correlation: r=0.91 with experimental aggregation data
 - Method: Sequence-based aggregation prediction
 
@@ -65,7 +65,7 @@ Aggregation propensity features predict the likelihood of antibody aggregation, 
 Thermal stability features predict the thermal robustness of antibodies, which affects shelf life and handling.
 
 #### Generation Process
-- Script: `/a0/bitcore/workspace/research/bioinformatics/thermal_stability_features.py`
+- Script: `scripts/thermal_stability_features.py`
 - Target Correlation: Spearman 0.4-0.52 with experimental thermal stability data
 - Method: Sequence-based thermal stability prediction
 
@@ -83,7 +83,7 @@ Thermal stability features predict the thermal robustness of antibodies, which a
 The feature integration process combines all individual feature sets into a unified matrix for modeling.
 
 #### Process
-- Script: `/a0/bitcore/workspace/research/bioinformatics/feature_integration.py`
+- Script: `scripts/feature_integration.py`
 - Method: DataFrame merging and preprocessing
 - Components: Imputation, scaling, feature selection
 

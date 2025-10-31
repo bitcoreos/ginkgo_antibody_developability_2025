@@ -8,7 +8,6 @@ import json
 
 # Add paths
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-sys.path.insert(0, '/a0/bitcore/workspace/flab_framework/propemab')
 
 # Import the FLAb PROPERMAB framework
 from flab_propemab import FLAbPROPERMAB

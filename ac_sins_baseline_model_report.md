@@ -88,7 +88,7 @@ The correlation analysis confirmed a moderate relationship (r=0.363) between sel
 
 ## Model Artifacts
 
-All model artifacts have been saved to `/a0/bitcore/workspace/research_outputs/`:
+All model artifacts have been saved to `research_outputs/`:
 - `ac_sins_baseline_model.pkl`: Baseline linear regression model
 - `ac_sins_sequence_model.pkl`: Sequence-based linear regression model
 - `ac_sins_scaler.pkl`: Feature scaler for numerical features

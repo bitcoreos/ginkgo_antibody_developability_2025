@@ -11,7 +11,7 @@ BITCORE employs a sophisticated modeling framework that combines traditional mac
 Random Forest is a robust ensemble learning method that combines multiple decision trees to make predictions.
 
 #### Implementation Details
-- Script: `/a0/bitcore/workspace/scripts/run_competition_modeling.py`
+- Script: `scripts/run_competition_modeling.py`
 - Class: `ModifiedFeatureIntegration`
 - Method: `train_random_forest_model()`
 - Parameters: Default scikit-learn parameters with potential for hyperparameter tuning
@@ -37,7 +37,7 @@ Random Forest is a robust ensemble learning method that combines multiple decisi
 XGBoost is a gradient boosting framework that provides high performance and flexibility.
 
 #### Implementation Details
-- Script: `/a0/bitcore/workspace/scripts/run_competition_modeling.py`
+- Script: `scripts/run_competition_modeling.py`
 - Class: `ModifiedFeatureIntegration`
 - Method: `train_xgboost_model()`
 - Parameters: Default XGBoost parameters with potential for hyperparameter tuning
@@ -65,7 +65,7 @@ The model training framework provides a unified interface for training different
 ### Key Components
 
 #### FeatureIntegration Class
-- Location: `/a0/bitcore/workspace/research/bioinformatics/feature_integration.py`
+- Location: `scripts/feature_integration.py`
 - Purpose: Centralized feature handling and model training
 - Methods: `train_random_forest_model()`, `train_xgboost_model()`, `predict_with_model()`
 
@@ -107,7 +107,7 @@ The model training framework provides a unified interface for training different
 Once models are trained, they are used to generate predictions for new data.
 
 ### Process
-- Script: `/a0/bitcore/workspace/scripts/generate_holdout_predictions.py`
+- Script: `scripts/generate_holdout_predictions.py`
 - Method: Load trained model and apply to new feature matrix
 - Output: Prediction values for target variable
 
@@ -127,7 +127,7 @@ Model performance is evaluated using multiple metrics to ensure robustness.
 - Feature importance rankings
 
 ### Evaluation Process
-- Script: `/a0/bitcore/workspace/scripts/evaluate_model_performance.py`
+- Script: `scripts/evaluate_model_performance.py`
 - Method: Compare predictions against known targets
 - Output: Performance metrics and visualizations
 

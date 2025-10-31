@@ -74,7 +74,7 @@ Our technical implementation includes:
 
 To use our code:
 
-1. Navigate to the desired directory (code/flab_framework, ml_algorithms, etc.)
+1. Navigate to the desired directory (flab_framework, ml_algorithms, etc.)
 2. Install required dependencies
 3. Run the desired modules or scripts
 
