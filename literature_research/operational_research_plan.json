@@ -1,0 +1,17 @@
+{
+  "objective": "Identify latent states in antibody sequences that influence developability using HMMs",
+  "research_questions": [
+    "What hidden states in antibody sequences correlate with AC-SINS_pH7.4 (aggregation)?",
+    "What latent patterns predict PR_CHO (expression)?",
+    "How do hidden states influence HIC (hydrophobicity)?",
+    "What latent features determine Tm2 (thermal stability)?",
+    "Can we identify hidden states that predict Titer (yield)?"
+  ],
+  "methodology": "Use Hidden Markov Models to identify latent states in antibody sequences and correlate them with developability metrics",
+  "data_requirements": [
+    "Antibody sequence data",
+    "Developability assay results (AC-SINS_pH7.4, PR_CHO, HIC, Tm2, Titer)",
+    "Known problematic motifs"
+  ],
+  "analysis_approach": "Train HMMs on sequence data and identify states that correlate with developability metrics"
+}
