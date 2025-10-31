@@ -15,7 +15,6 @@ This repository is organized as follows:
 - **data/**: Dataset files including competition targets and predictions
 - **dataset/**: Additional dataset files
 - **deprecated/**: Outdated components moved for reference
-- **docs/**: Project documentation and plans
 - **documentation/**: Technical documentation
 - **features/**: Feature engineering components
 - **flab_framework/**: Complete FLAb framework implementation
