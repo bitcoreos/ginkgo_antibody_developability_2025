@@ -1,6 +1,0 @@
-{
-  "researchTopic": "Research the evolutionary aspects of hidden features in antibody sequences that influence developability. Focus on: patterns from natural selection. Key questions to address: What evolutionary patterns in antibody sequences indicate high developability?, How does natural selection shape sequences to avoid aggregation or instability?, Can we identify 'evolutionarily optimized' sequence patterns?",
-  "model": "llama-3.3-70b",
-  "lens": "evolutionary",
-  "timestamp": "2025-10-06T05:06:53.112126"
-}

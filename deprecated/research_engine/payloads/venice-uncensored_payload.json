@@ -1,6 +1,0 @@
-{
-  "researchTopic": "Research the computational aspects of hidden features in antibody sequences that influence developability. Focus on: model relationships and prediction methods. Key questions to address: What computational models best predict antibody developability from sequence?, How can Hidden Markov Models identify latent states that influence developability?, What machine learning approaches have been most successful in this domain?",
-  "model": "venice-uncensored",
-  "lens": "computational",
-  "timestamp": "2025-10-06T05:06:53.112111"
-}

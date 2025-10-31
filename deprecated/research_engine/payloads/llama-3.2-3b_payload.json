@@ -1,6 +1,0 @@
-{
-  "researchTopic": "Research the biochemical aspects of hidden features in antibody sequences that influence developability. Focus on: molecular features that determine antibody developability. Key questions to address: What specific molecular features in antibody sequences correlate with developability metrics?, How do amino acid properties influence AC-SINS_pH7.4, PR_CHO, HIC, Tm2, and Titer?, What hidden patterns in CDR regions affect biochemical stability?",
-  "model": "llama-3.2-3b",
-  "lens": "biochemical",
-  "timestamp": "2025-10-06T05:06:53.112131"
-}
