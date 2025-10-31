@@ -10,33 +10,56 @@ Our approach focuses on improving feature quality through advanced feature engin
 
 ### Code
 
-The `code/` directory contains our FLAb framework implementation, including:
+The code/ directory contains our FLAb framework implementation, including:
 
 - Multi-channel information theory integration
 - Heavy-light chain coupling analysis
 - Developability prediction models
 - Ensemble methods
 
-The `flab_framework/` directory contains the complete FLAb framework implementation.
+The flab_framework/ directory contains the complete FLAb framework implementation.
 
-The `ml_algorithms/` directory contains implementations of various machine learning algorithms used in our approach.
+The ml_algorithms/ directory contains implementations of various machine learning algorithms used in our approach.
 
-The `scripts/` directory contains various scripts used for data processing, model training, and result generation.
+The scripts/ directory contains various scripts used for data processing, model training, and result generation.
 
 ### Results
 
-The `results/` directory contains our prediction results:
+The results/ directory contains our prediction results:
 
 - Cross-validation predictions
-- Holdout set predictions
-- Imputed competition targets
+- Final predictions for the competition
 
 ### Documentation
 
-The `documentation/` directory contains our research reports:
+The final_presentation/ directory contains our key documentation:
 
-- HIC baseline model report
-- Polyreactivity research report
-- AC-SINS baseline model report
+- SUMMARY.md: High-level overview of our approach and key findings
+- technical_implementation_report.md: Detailed technical implementation report with comprehensive documentation of all key components
+- FEATURES.md: Detailed description of features used in our models
+- MODELS.md: Detailed description of models used in our approach
+- completed_work_summary.md: Summary of completed work and key achievements
 
-\n## Literature Research\n\nThis repository includes comprehensive literature research conducted during the development of our antibody developability prediction models. The research encompasses:\n\n- Project memory files documenting key research findings\n- User research files with analysis of antibody trends and assays\n- Technical documentation of implemented models and frameworks\n- Implementation plans and gap analysis\n- Investigation reports and validation documentation\n\nAll literature research is now available in the `literature_research` directory, containing 274 files organized by source directory. A comprehensive index of all files is provided in `literature_research/citations.md`, which includes:\n\n- Files from `/a0/bitcore/project_memories`\n- Files from `/a0/bitcore/workspace/data/user_research/antibody_research_chatgpt5`\n- Files from `/a0/bitcore/workspace/docs/documentation`\n- Files from `/a0/bitcore/workspace/docs/other`\n- Files from `/a0/bitcore/workspace/docs`\n- Files from `/a0/bitcore/workspace/investigation`\n- Files from `/a0/bitcore/workspace/implementation_plans`\n- Files from `/a0/bitcore/workspace/implementation_plans/gap_analysis`\n\nThe citations.md file also includes a separate section for competition resources:\n\n- Ginkgo Bioworks Datapoints - 2025 AbDev Competition\n- GDPa1 Dataset\n- Hugging Face Blog - Making Antibody Embeddings and Predictions\n\nIf you use our code or data, please cite our work, the competition organizers, and any relevant literature as indicated in the citations.md file.
+## Key Technical Components
+
+Our implementation includes several advanced technical components that are thoroughly documented in final_presentation/technical_implementation_report.md:
+
+- FLAb (Fragment Library for Antibody) Framework
+- Multi-Channel Information Theory Framework
+- AbLEF (Antibody Language Ensemble Fusion)
+- Neural-ODEs for temporal dynamics modeling
+- Cross-Attention Mechanisms for multi-modal fusion
+- Graph Neural Networks for structure-based predictions
+- Heavy-Light Coupling Analysis
+- Uncertainty Quantification
+- Ensemble Methods
+- Polyreactivity Analysis
+- Protein Language Models
+
+## Usage
+
+To use our code, please refer to the detailed documentation in the final_presentation/ directory. The technical_implementation_report.md file provides comprehensive information about our approach and implementation details.
+
+## Citation
+
+If you use our code or data, please cite our work, the competition organizers, and any relevant literature as indicated in the documentation.
