@@ -1,0 +1,6 @@
+user,property,spearman_correlation,dataset,Model_name
+bitwikiorg,Polyreactivity,0.2729,GDPa1_cross_validation,BITcore
+bitwikiorg,Thermostability,0.2453,GDPa1_cross_validation,BITcore
+bitwikiorg,Self-association,0.1859,GDPa1_cross_validation,BITcore
+bitwikiorg,Hydrophobicity,0.1656,GDPa1_cross_validation,BITcore
+bitwikiorg,Titer,0.0827,GDPa1_cross_validation,BITcore

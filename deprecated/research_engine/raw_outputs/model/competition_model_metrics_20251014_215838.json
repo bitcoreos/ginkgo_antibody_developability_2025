@@ -1,0 +1,308 @@
+{
+  "generated_at": "2025-10-14T21:59:08.345591",
+  "timestamp": "20251014_215838",
+  "cv_predictions_file": "/workspaces/bitcore/workspace/data/submissions/cv_predictions_20251014_215838.csv",
+  "target_coverage": {
+    "HIC_delta_G_ML": 242,
+    "PR_CHO": 197,
+    "AC-SINS_pH7.4_nmol/mg": 242,
+    "Tm2_DSF_degC": 193,
+    "Titer_g/L": 239
+  },
+  "models": {
+    "HIC_delta_G_ML": {
+      "mean_r2": 0.0030677073448114323,
+      "std_r2": 0.08612732031947452,
+      "n_samples": 242,
+      "cv_scores": [
+        0.03621108837881615,
+        0.11382975757841118,
+        -0.1383096562359123,
+        -0.04139416529063489,
+        0.04500151229337701
+      ],
+      "top_features": [
+        {
+          "feature": "vh_vl_thermal_balance",
+          "importance": 0.1020740837694591
+        },
+        {
+          "feature": "vl_surface_polar_fraction",
+          "importance": 0.06053964724941535
+        },
+        {
+          "feature": "vh_charge_separation",
+          "importance": 0.05957102697340064
+        },
+        {
+          "feature": "vh_sheet_formers_propensity",
+          "importance": 0.02545482198114184
+        },
+        {
+          "feature": "cdr_entropy_std",
+          "importance": 0.023123432554921615
+        },
+        {
+          "feature": "vl_thermal_stability_score",
+          "importance": 0.02213047341652749
+        },
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.022113683672481347
+        },
+        {
+          "feature": "predicted_thermal_stability",
+          "importance": 0.01940526352009186
+        },
+        {
+          "feature": "cdr_h2_hydrophobicity_mean",
+          "importance": 0.016836587894950336
+        },
+        {
+          "feature": "vh_sheet_formers_count",
+          "importance": 0.015312785359241195
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/HIC_delta_G_ML_model_20251014_215838.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/HIC_delta_G_ML_scaler_20251014_215838.joblib"
+      }
+    },
+    "PR_CHO": {
+      "mean_r2": 0.12434700271265249,
+      "std_r2": 0.097656799585156,
+      "n_samples": 197,
+      "cv_scores": [
+        0.22353389170325466,
+        0.05449581337457898,
+        0.1452741241106651,
+        -0.025816213619206163,
+        0.22424739799396987
+      ],
+      "top_features": [
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.11206630871551614
+        },
+        {
+          "feature": "vh_avg_local_entropy",
+          "importance": 0.04753442278038662
+        },
+        {
+          "feature": "vh_positive_charge_clustering",
+          "importance": 0.046764921713502855
+        },
+        {
+          "feature": "vh_stabilizing_LEWV_count",
+          "importance": 0.022854551869396576
+        },
+        {
+          "feature": "vl_surface_polar_fraction",
+          "importance": 0.02210511372628626
+        },
+        {
+          "feature": "vh_thermolabile_DN_count",
+          "importance": 0.02204290767190883
+        },
+        {
+          "feature": "vh_charge_ratio",
+          "importance": 0.020007001721345938
+        },
+        {
+          "feature": "vh_vhh_fr1_thermal_score",
+          "importance": 0.01992187973933957
+        },
+        {
+          "feature": "vh_thermal_motif_balance",
+          "importance": 0.018897116935238555
+        },
+        {
+          "feature": "vh_charge_density",
+          "importance": 0.01687363783123521
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/PR_CHO_model_20251014_215838.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/PR_CHO_scaler_20251014_215838.joblib"
+      }
+    },
+    "AC-SINS_pH7.4_nmol/mg": {
+      "mean_r2": 0.08347483373571118,
+      "std_r2": 0.17911103322403235,
+      "n_samples": 242,
+      "cv_scores": [
+        0.35981166375584883,
+        -0.18606024016381406,
+        0.06839660815439563,
+        0.16221537595468238,
+        0.013010760977443137
+      ],
+      "top_features": [
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.12506042341493345
+        },
+        {
+          "feature": "vh_charge_ratio",
+          "importance": 0.043949927813793005
+        },
+        {
+          "feature": "vl_entropy_normalized",
+          "importance": 0.028265602093925632
+        },
+        {
+          "feature": "vl_sequence_entropy",
+          "importance": 0.028174228746335822
+        },
+        {
+          "feature": "cdr_global_charge_density",
+          "importance": 0.02468811418752244
+        },
+        {
+          "feature": "vh_most_frequent_aa_fraction",
+          "importance": 0.02091459608066519
+        },
+        {
+          "feature": "cdr_total_net_charge",
+          "importance": 0.019909560569546347
+        },
+        {
+          "feature": "vh_flexibility_ratio",
+          "importance": 0.01679439791909477
+        },
+        {
+          "feature": "vh_negative_charge_clustering",
+          "importance": 0.01678386207238184
+        },
+        {
+          "feature": "vh_vl_charge_balance",
+          "importance": 0.014749696735593962
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/AC-SINS_pH7.4_nmol_mg_model_20251014_215838.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/AC-SINS_pH7.4_nmol_mg_scaler_20251014_215838.joblib"
+      }
+    },
+    "Tm2_DSF_degC": {
+      "mean_r2": -0.23102639652901802,
+      "std_r2": 0.3030218754773151,
+      "n_samples": 193,
+      "cv_scores": [
+        -0.05411929336206245,
+        -0.6325239874288999,
+        -0.5305377602950425,
+        0.1716773181055633,
+        -0.10962825966464851
+      ],
+      "top_features": [
+        {
+          "feature": "vh_helix_formers_propensity",
+          "importance": 0.042115697622171815
+        },
+        {
+          "feature": "vh_turn_formers_propensity",
+          "importance": 0.028680640950486662
+        },
+        {
+          "feature": "cdr_entropy_std",
+          "importance": 0.026803687890735797
+        },
+        {
+          "feature": "vh_positive_charge_clustering",
+          "importance": 0.02595662813682429
+        },
+        {
+          "feature": "vh_vl_hydrophobic_balance",
+          "importance": 0.021845810490634162
+        },
+        {
+          "feature": "cdr_h2_hydrophobicity_mean",
+          "importance": 0.021435127460969775
+        },
+        {
+          "feature": "vl_charge_separation",
+          "importance": 0.0209893648269818
+        },
+        {
+          "feature": "cdr_h3_hydrophobicity_mean",
+          "importance": 0.020954952416294557
+        },
+        {
+          "feature": "vh_vl_thermal_balance",
+          "importance": 0.01950398117324444
+        },
+        {
+          "feature": "cdr_h2_net_charge",
+          "importance": 0.019227213289418565
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/Tm2_DSF_degC_model_20251014_215838.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/Tm2_DSF_degC_scaler_20251014_215838.joblib"
+      }
+    },
+    "Titer_g/L": {
+      "mean_r2": -0.008615430013911962,
+      "std_r2": 0.1731341873317803,
+      "n_samples": 239,
+      "cv_scores": [
+        -0.13053672136523975,
+        -0.21071739307568804,
+        -0.09907148428769275,
+        0.19197655791863766,
+        0.20527189074042307
+      ],
+      "top_features": [
+        {
+          "feature": "vl_charge_separation",
+          "importance": 0.06070876840547245
+        },
+        {
+          "feature": "vl_negative_charge_clustering",
+          "importance": 0.05781537689280845
+        },
+        {
+          "feature": "vl_avg_local_entropy",
+          "importance": 0.03644810795522797
+        },
+        {
+          "feature": "vl_surface_charge_density",
+          "importance": 0.03208825438388323
+        },
+        {
+          "feature": "vh_entropy_variation",
+          "importance": 0.029835318041344764
+        },
+        {
+          "feature": "vl_unfolding_resistance",
+          "importance": 0.028376941311029347
+        },
+        {
+          "feature": "vl_flexible_residues_count",
+          "importance": 0.02611296996425906
+        },
+        {
+          "feature": "vl_turn_formers_propensity",
+          "importance": 0.015139548358539017
+        },
+        {
+          "feature": "cdr_h2_hydrophobicity_mean",
+          "importance": 0.01500843846060969
+        },
+        {
+          "feature": "vl_motif_risk",
+          "importance": 0.014387326066335247
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/Titer_g_L_model_20251014_215838.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/Titer_g_L_scaler_20251014_215838.joblib"
+      }
+    }
+  },
+  "training_predictions_file": "/workspaces/bitcore/workspace/data/submissions/training_predictions_20251014_215838.csv",
+  "training_prediction_count": 1113,
+  "heldout_predictions_file": "/workspaces/bitcore/workspace/data/submissions/heldout_predictions_20251014_215838.csv",
+  "heldout_prediction_count": 117
+}

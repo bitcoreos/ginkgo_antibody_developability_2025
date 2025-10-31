@@ -1,0 +1,102 @@
+{
+  "name": "Neuron_venice-uncensored",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "neuron/venice-uncensored",
+        "options": {}
+      },
+      "id": "webhook-in",
+      "name": "Webhook In",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        -350,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract research topic from input\nconst researchTopic = $json[\"researchTopic\"] || $json[\"researchterm\"];\n\nif (!researchTopic) {\n  throw new Error('researchTopic is required');\n}\n\n// Pass through the research topic\nreturn [{\n  json: {\n    researchTopic: researchTopic\n  }\n}];"
+      },
+      "id": "initialize-parameters",
+      "name": "Initialize Parameters",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -100,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "venice-uncensored",
+          "mode": "list"
+        },
+        "options": {}
+      },
+      "id": "llm-node",
+      "name": "LLM: Process",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format the output\nconst response = $json.output || \"No response generated\";\n\nreturn [{\n  json: {\n    response: response\n  }\n}];"
+      },
+      "id": "format-output",
+      "name": "Format Output",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        400,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook In": {
+      "main": [
+        [
+          {
+            "node": "Initialize Parameters",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Initialize Parameters": {
+      "main": [
+        [
+          {
+            "node": "LLM: Process",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM: Process": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Format Output",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

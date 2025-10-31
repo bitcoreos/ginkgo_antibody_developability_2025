@@ -1,0 +1,9 @@
+{
+  "lens": "thermodynamic",
+  "focus": "energy landscapes governing folding",
+  "questions": [
+    "What thermodynamic principles govern antibody folding and stability?",
+    "How do energy landscapes influence aggregation propensity and thermal stability?",
+    "Can we predict Tm2 and AC-SINS_pH7.4 from thermodynamic calculations?"
+  ]
+}

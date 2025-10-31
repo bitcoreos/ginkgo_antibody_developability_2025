@@ -1,0 +1,6 @@
+{
+  "researchTopic": "Research the clinical aspects of hidden features in antibody sequences that influence developability. Focus on: real-world outcomes and applications. Key questions to address: How do developability metrics translate to clinical outcomes?, What are the real-world consequences of poor developability in therapeutic antibodies?, How do clinical requirements shape developability optimization?",
+  "model": "mistral-31-24b",
+  "lens": "clinical",
+  "timestamp": "2025-10-06T05:06:53.112139"
+}

@@ -1,0 +1,4 @@
+antibody_id,vh_sequence_length,vl_sequence_length,vh_net_charge,vl_net_charge,charge_difference,charge_ratio,positive_fraction_difference,negative_fraction_difference,vh_max_hydrophobicity,vl_max_hydrophobicity,vh_hydrophobic_patch_count,vl_hydrophobic_patch_count,total_hydrophobic_patches
+ab1,122,107,0,1,1,inf,0.007200857974567182,0.016546652367090547,1.8199999999999998,2.0,0,0,0
+ab2,122,107,0,2,2,inf,0.019687452121954954,0.0009958633369082232,1.8199999999999998,1.94,0,0,0
+ab3,122,112,4,5,1,1.25,0.01024590163934426,0.0016100702576112291,1.8199999999999998,2.56,0,1,1

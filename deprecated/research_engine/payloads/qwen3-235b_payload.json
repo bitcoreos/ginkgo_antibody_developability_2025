@@ -1,0 +1,6 @@
+{
+  "researchTopic": "Research the thermodynamic aspects of hidden features in antibody sequences that influence developability. Focus on: energy landscapes governing folding. Key questions to address: What thermodynamic principles govern antibody folding and stability?, How do energy landscapes influence aggregation propensity and thermal stability?, Can we predict Tm2 and AC-SINS_pH7.4 from thermodynamic calculations?",
+  "model": "qwen3-235b",
+  "lens": "thermodynamic",
+  "timestamp": "2025-10-06T05:06:53.112134"
+}

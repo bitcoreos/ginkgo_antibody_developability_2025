@@ -1,0 +1,56 @@
+{
+  "topic": "Hydrophobicity / HIC Risk Mapping",
+  "system_prompt": "Investigate how hydrophobic interaction chromatography reflects biophysical liabilities in GDPa1.",
+  "results": {
+    "llama-3.2-3b": {
+      "status": "success",
+      "neuron": "llama-3.2-3b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:20:51.983816"
+    },
+    "qwen3-4b": {
+      "status": "success",
+      "neuron": "qwen3-4b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:20:58.571134"
+    },
+    "llama-3.3-70b": {
+      "status": "success",
+      "neuron": "llama-3.3-70b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:21:04.483134"
+    },
+    "mistral-31-24b": {
+      "status": "success",
+      "neuron": "mistral-31-24b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:21:10.695138"
+    },
+    "venice-uncensored": {
+      "status": "success",
+      "neuron": "venice-uncensored",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:21:20.191827"
+    },
+    "qwen3-235b": {
+      "status": "success",
+      "neuron": "qwen3-235b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T02:21:29.658579"
+    }
+  },
+  "dry_run": true,
+  "saved_at": "2025-10-11T02:21:29.658788"
+}

@@ -1,0 +1,23 @@
+{
+  "analysis_time": "2025-10-06T05:11:29.832037",
+  "input_file": "/root/bitcore/research_antibody_2025/raw_responses/research_results_20251006_050942.json",
+  "total_convergent_findings": 1,
+  "high_confidence_findings": 0,
+  "medium_confidence_findings": 0,
+  "low_confidence_findings": 1,
+  "findings": [
+    {
+      "finding": "By analyzing the sequence data using HMMs, we can identify hidden features in the antibody sequences that influence developability and use this information to design and optimize new antibodies with improved developability properties",
+      "supporting_models": [
+        "llama-3.3-70b",
+        "llama-3.3-70b",
+        "llama-3.3-70b",
+        "llama-3.3-70b",
+        "llama-3.3-70b"
+      ],
+      "model_count": 1,
+      "confidence": "low",
+      "evidence_score": 30
+    }
+  ]
+}

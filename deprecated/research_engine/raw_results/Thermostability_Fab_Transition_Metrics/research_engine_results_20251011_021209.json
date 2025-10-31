@@ -1,0 +1,44 @@
+{
+  "topic": "Hydrophobicity / HIC Risk Mapping",
+  "system_prompt": "Investigate how hydrophobic interaction chromatography reflects biophysical liabilities in GDPa1.",
+  "results": {
+    "llama-3.2-3b": {
+      "status": "error",
+      "neuron": "llama-3.2-3b",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.711018"
+    },
+    "qwen3-4b": {
+      "status": "error",
+      "neuron": "qwen3-4b",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.712377"
+    },
+    "llama-3.3-70b": {
+      "status": "error",
+      "neuron": "llama-3.3-70b",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.713490"
+    },
+    "mistral-31-24b": {
+      "status": "error",
+      "neuron": "mistral-31-24b",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.714435"
+    },
+    "venice-uncensored": {
+      "status": "error",
+      "neuron": "venice-uncensored",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.715412"
+    },
+    "qwen3-235b": {
+      "status": "error",
+      "neuron": "qwen3-235b",
+      "message": "Attempted to set connect timeout to 0, but the timeout cannot be set to a value less than or equal to 0.",
+      "timestamp": "2025-10-11T02:12:09.716361"
+    }
+  },
+  "dry_run": false,
+  "saved_at": "2025-10-11T02:12:09.716563"
+}

@@ -1,0 +1,56 @@
+{
+  "topic": "test",
+  "system_prompt": "test",
+  "results": {
+    "llama-3.2-3b": {
+      "status": "success",
+      "neuron": "llama-3.2-3b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:48:57.255469"
+    },
+    "qwen3-4b": {
+      "status": "success",
+      "neuron": "qwen3-4b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:49:03.648779"
+    },
+    "llama-3.3-70b": {
+      "status": "success",
+      "neuron": "llama-3.3-70b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:49:08.908989"
+    },
+    "mistral-31-24b": {
+      "status": "success",
+      "neuron": "mistral-31-24b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:49:16.933435"
+    },
+    "venice-uncensored": {
+      "status": "success",
+      "neuron": "venice-uncensored",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:49:22.738866"
+    },
+    "qwen3-235b": {
+      "status": "success",
+      "neuron": "qwen3-235b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T05:49:31.292484"
+    }
+  },
+  "dry_run": true,
+  "saved_at": "2025-10-11T05:49:31.292628"
+}

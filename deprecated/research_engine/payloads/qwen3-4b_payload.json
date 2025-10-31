@@ -1,0 +1,6 @@
+{
+  "researchTopic": "Research the structural aspects of hidden features in antibody sequences that influence developability. Focus on: 3D conformations and their influence on function. Key questions to address: How do 3D structural conformations of antibodies influence their developability?, What structural motifs are associated with aggregation (AC-SINS_pH7.4) or thermal stability (Tm2)?, How can we predict structural issues from sequence alone?",
+  "model": "qwen3-4b",
+  "lens": "structural",
+  "timestamp": "2025-10-06T05:06:53.112137"
+}

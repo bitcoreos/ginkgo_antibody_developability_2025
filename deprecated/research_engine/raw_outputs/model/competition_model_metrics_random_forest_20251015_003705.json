@@ -1,0 +1,314 @@
+{
+  "generated_at": "2025-10-15T00:38:52.875269",
+  "timestamp": "20251015_003705",
+  "model_type": "random_forest",
+  "cv_predictions_file": "/workspaces/bitcore/workspace/data/submissions/random_forest_cv_predictions_20251015_003705.csv",
+  "target_coverage": {
+    "HIC_delta_G_ML": 242,
+    "PR_CHO": 197,
+    "AC-SINS_pH7.4_nmol/mg": 242,
+    "Tm2_DSF_degC": 193,
+    "Titer_g/L": 239
+  },
+  "models": {
+    "HIC_delta_G_ML": {
+      "mean_r2": 0.004099356250492003,
+      "std_r2": 0.07032356965383905,
+      "n_samples": 242,
+      "cv_scores": [
+        0.01973168611186371,
+        0.09044405886776563,
+        -0.11217991703606067,
+        -0.030005422288730488,
+        0.052506375597621835
+      ],
+      "top_features": [
+        {
+          "feature": "vh_vl_thermal_balance",
+          "importance": 0.09377680762042004
+        },
+        {
+          "feature": "vh_charge_separation",
+          "importance": 0.0667985011767164
+        },
+        {
+          "feature": "vl_surface_polar_fraction",
+          "importance": 0.057256534536505276
+        },
+        {
+          "feature": "vh_sheet_formers_propensity",
+          "importance": 0.022961265085414906
+        },
+        {
+          "feature": "cdr_entropy_std",
+          "importance": 0.022000538333272132
+        },
+        {
+          "feature": "vl_thermal_stability_score",
+          "importance": 0.02167356751516065
+        },
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.019190698505954455
+        },
+        {
+          "feature": "vh_sheet_formers_count",
+          "importance": 0.019077022402283754
+        },
+        {
+          "feature": "vl_thermal_stability_sum",
+          "importance": 0.019063048356845195
+        },
+        {
+          "feature": "predicted_thermal_stability",
+          "importance": 0.01716655259674807
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/random_forest_HIC_delta_G_ML_model_20251015_003705.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/random_forest_HIC_delta_G_ML_scaler_20251015_003705.joblib",
+        "imputer": "/workspaces/bitcore/workspace/models/random_forest_HIC_delta_G_ML_imputer_20251015_003705.joblib"
+      }
+    },
+    "PR_CHO": {
+      "mean_r2": 0.1513879195344436,
+      "std_r2": 0.10169037391502203,
+      "n_samples": 197,
+      "cv_scores": [
+        0.26096925263906035,
+        0.07263147443379725,
+        0.17091122213230792,
+        2.867250749760686e-05,
+        0.25239897595955496
+      ],
+      "top_features": [
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.11505115966903945
+        },
+        {
+          "feature": "vh_avg_local_entropy",
+          "importance": 0.046349739711976146
+        },
+        {
+          "feature": "vh_positive_charge_clustering",
+          "importance": 0.037163551126005584
+        },
+        {
+          "feature": "vh_stabilizing_LEWV_count",
+          "importance": 0.026935396593869728
+        },
+        {
+          "feature": "vl_surface_polar_fraction",
+          "importance": 0.02669300317550359
+        },
+        {
+          "feature": "vh_vhh_fr1_thermal_score",
+          "importance": 0.019652546759872165
+        },
+        {
+          "feature": "vh_surface_polar_fraction",
+          "importance": 0.01851131681785413
+        },
+        {
+          "feature": "vh_thermolabile_DN_count",
+          "importance": 0.01718667751706041
+        },
+        {
+          "feature": "combined_risk_score",
+          "importance": 0.01532238417114228
+        },
+        {
+          "feature": "vh_charge_density",
+          "importance": 0.015066263842206346
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/random_forest_PR_CHO_model_20251015_003705.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/random_forest_PR_CHO_scaler_20251015_003705.joblib",
+        "imputer": "/workspaces/bitcore/workspace/models/random_forest_PR_CHO_imputer_20251015_003705.joblib"
+      }
+    },
+    "AC-SINS_pH7.4_nmol/mg": {
+      "mean_r2": 0.09175361099633272,
+      "std_r2": 0.16866280897222555,
+      "n_samples": 242,
+      "cv_scores": [
+        0.352726206154408,
+        -0.1380269651454693,
+        0.06944816288891098,
+        0.18927328075083616,
+        -0.014652629667022188
+      ],
+      "top_features": [
+        {
+          "feature": "combined_net_charge",
+          "importance": 0.11511084826744307
+        },
+        {
+          "feature": "vh_charge_ratio",
+          "importance": 0.04254156399072118
+        },
+        {
+          "feature": "vl_entropy_normalized",
+          "importance": 0.031073350403495743
+        },
+        {
+          "feature": "vl_sequence_entropy",
+          "importance": 0.030122490728990457
+        },
+        {
+          "feature": "cdr_total_net_charge",
+          "importance": 0.027383305968874533
+        },
+        {
+          "feature": "vh_most_frequent_aa_fraction",
+          "importance": 0.02549882419858068
+        },
+        {
+          "feature": "cdr_global_charge_density",
+          "importance": 0.021705863910683555
+        },
+        {
+          "feature": "vh_net_charge",
+          "importance": 0.017924747637445428
+        },
+        {
+          "feature": "vh_negative_charge_clustering",
+          "importance": 0.016028336984048173
+        },
+        {
+          "feature": "vh_flexibility_ratio",
+          "importance": 0.015147254195029927
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/random_forest_AC-SINS_pH7.4_nmol_mg_model_20251015_003705.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/random_forest_AC-SINS_pH7.4_nmol_mg_scaler_20251015_003705.joblib",
+        "imputer": "/workspaces/bitcore/workspace/models/random_forest_AC-SINS_pH7.4_nmol_mg_imputer_20251015_003705.joblib"
+      }
+    },
+    "Tm2_DSF_degC": {
+      "mean_r2": -0.2273575387496573,
+      "std_r2": 0.31588332266156754,
+      "n_samples": 193,
+      "cv_scores": [
+        -0.04528978123906069,
+        -0.7191146001517701,
+        -0.4598582439055079,
+        0.15073305227510958,
+        -0.0632581207270575
+      ],
+      "top_features": [
+        {
+          "feature": "vh_helix_formers_propensity",
+          "importance": 0.038015535613211644
+        },
+        {
+          "feature": "vh_turn_formers_propensity",
+          "importance": 0.03136531748469059
+        },
+        {
+          "feature": "cdr_h2_hydrophobicity_mean",
+          "importance": 0.02424017068884622
+        },
+        {
+          "feature": "vh_positive_charge_clustering",
+          "importance": 0.023799405915567506
+        },
+        {
+          "feature": "cdr_entropy_std",
+          "importance": 0.02263726681068274
+        },
+        {
+          "feature": "vh_vl_hydrophobic_balance",
+          "importance": 0.02111286939469978
+        },
+        {
+          "feature": "vl_charge_separation",
+          "importance": 0.02049660478808092
+        },
+        {
+          "feature": "cdr_h2_net_charge",
+          "importance": 0.02022911171572053
+        },
+        {
+          "feature": "cdr_h3_hydrophobicity_mean",
+          "importance": 0.01935584846737727
+        },
+        {
+          "feature": "vh_most_frequent_aa_fraction",
+          "importance": 0.01759552039029666
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/random_forest_Tm2_DSF_degC_model_20251015_003705.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/random_forest_Tm2_DSF_degC_scaler_20251015_003705.joblib",
+        "imputer": "/workspaces/bitcore/workspace/models/random_forest_Tm2_DSF_degC_imputer_20251015_003705.joblib"
+      }
+    },
+    "Titer_g/L": {
+      "mean_r2": 0.0004281955908414847,
+      "std_r2": 0.16445549430930362,
+      "n_samples": 239,
+      "cv_scores": [
+        -0.13301063211466646,
+        -0.14122826765051744,
+        -0.12545412784798904,
+        0.17727709212887355,
+        0.2245569134385068
+      ],
+      "top_features": [
+        {
+          "feature": "vl_charge_separation",
+          "importance": 0.0669790029922634
+        },
+        {
+          "feature": "vl_negative_charge_clustering",
+          "importance": 0.052889018601356065
+        },
+        {
+          "feature": "vl_surface_charge_density",
+          "importance": 0.03162155573093345
+        },
+        {
+          "feature": "vl_avg_local_entropy",
+          "importance": 0.03063827840130586
+        },
+        {
+          "feature": "vh_entropy_variation",
+          "importance": 0.0268236396354694
+        },
+        {
+          "feature": "vl_flexible_residues_count",
+          "importance": 0.02547196159685754
+        },
+        {
+          "feature": "vl_unfolding_resistance",
+          "importance": 0.022075175252313353
+        },
+        {
+          "feature": "vl_motif_risk",
+          "importance": 0.017495580583862712
+        },
+        {
+          "feature": "vl_turn_formers_propensity",
+          "importance": 0.01738788320787966
+        },
+        {
+          "feature": "vh_thermal_stability_std",
+          "importance": 0.01514098160415559
+        }
+      ],
+      "artifacts": {
+        "model": "/workspaces/bitcore/workspace/models/random_forest_Titer_g_L_model_20251015_003705.joblib",
+        "scaler": "/workspaces/bitcore/workspace/models/random_forest_Titer_g_L_scaler_20251015_003705.joblib",
+        "imputer": "/workspaces/bitcore/workspace/models/random_forest_Titer_g_L_imputer_20251015_003705.joblib"
+      }
+    }
+  },
+  "training_predictions_file": "/workspaces/bitcore/workspace/data/submissions/random_forest_training_predictions_20251015_003705.csv",
+  "training_prediction_count": 1113,
+  "heldout_predictions_file": "/workspaces/bitcore/workspace/data/submissions/random_forest_heldout_predictions_20251015_003705.csv",
+  "heldout_prediction_count": 117
+}

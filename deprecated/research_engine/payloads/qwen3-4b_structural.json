@@ -1,0 +1,9 @@
+{
+  "lens": "structural",
+  "focus": "3D conformations and their influence on function",
+  "questions": [
+    "How do 3D structural conformations of antibodies influence their developability?",
+    "What structural motifs are associated with aggregation (AC-SINS_pH7.4) or thermal stability (Tm2)?",
+    "How can we predict structural issues from sequence alone?"
+  ]
+}

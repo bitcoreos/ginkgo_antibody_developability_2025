@@ -1,0 +1,9 @@
+{
+  "lens": "computational",
+  "focus": "model relationships and prediction methods",
+  "questions": [
+    "What computational models best predict antibody developability from sequence?",
+    "How can Hidden Markov Models identify latent states that influence developability?",
+    "What machine learning approaches have been most successful in this domain?"
+  ]
+}

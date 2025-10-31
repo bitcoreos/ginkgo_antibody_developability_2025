@@ -1,0 +1,7 @@
+Model,Type,Pre-trained,Open Source,Inference Cost,Training Cost,Key Advantage
+H3-OPT,CDR-H3 Structure Prediction,Yes,Yes,Low,Very High,Combines AlphaFold2 with protein language model for CDR-H3
+ImmuneBuilder ABodyBuilder2,Antibody Structure Prediction,Yes,Yes,Low,Very High,Ensemble-based error estimation for uncertainty quantification
+p-IgGen,Sequence Embedding,Yes,Yes,Very Low,Very High,Antibody-specific language model for sequence representation
+AlphaFold2,Protein Structure Prediction,Yes,Yes,Medium,Extremely High,General protein structure prediction
+IgFold,Antibody Structure Prediction,Yes,No,High,Very High,Fast antibody structure prediction
+PfAbNet,3D-CNN for Developability,No,Yes,Low,High,Electrostatic potential surface analysis for viscosity

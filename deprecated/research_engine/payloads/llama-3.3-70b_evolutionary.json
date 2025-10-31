@@ -1,0 +1,9 @@
+{
+  "lens": "evolutionary",
+  "focus": "patterns from natural selection",
+  "questions": [
+    "What evolutionary patterns in antibody sequences indicate high developability?",
+    "How does natural selection shape sequences to avoid aggregation or instability?",
+    "Can we identify 'evolutionarily optimized' sequence patterns?"
+  ]
+}

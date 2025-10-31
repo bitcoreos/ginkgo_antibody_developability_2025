@@ -1,65 +1,29 @@
-# Ginkgo Antibody Developability Competition Submission
+# BITCORE Workspace
 
-This repository contains our supplementary data and code for the Ginkgo Antibody Developability Competition 2025.
+This is the main workspace for the BITCORE framework, designed for the 2025 Antibody Developability Prediction Competition.
 
-## Overview
+## Directory Structure
 
-Our approach focuses on improving feature quality through advanced feature engineering techniques and developing a hybrid model framework for predicting antibody developability. We implemented the FLAb (Feature Learning and Analysis baseline) framework to enhance prediction accuracy.
+- `citation/`: Research papers and references
+- `data/`: All datasets used in the project
+- `deprecated/`: Outdated components moved for reference
+- `docs/`: Project documentation and plans
+- `features/`: Feature engineering components
+- `ml_algorithms/`: Machine learning algorithms and models
+- `research/`: Ongoing research components
+- `research_outputs/`: Validated research outputs
+- `results/`: Experiment results and predictions
+- `scripts/`: Executable scripts and notebooks
+- `tests/`: Test files
 
-## Contents
+## Key Files
 
-### Code
+- `docs/terminology_glossary.md`: Standardized terminology definitions
+- `data/MANIFEST.yaml`: Data governance manifest
 
-The code/ directory contains our FLAb framework implementation, including:
+## Getting Started
 
-- Multi-channel information theory integration
-- Heavy-light chain coupling analysis
-- Developability prediction models
-- Ensemble methods
+1. Review `docs/terminology_glossary.md` for key term definitions
+2. Check `data/README.md` for data structure overview
+3. See `docs/plans/strat_MASTER_PLAN.md` for project roadmap
 
-The flab_framework/ directory contains the complete FLAb framework implementation.
-
-The ml_algorithms/ directory contains implementations of various machine learning algorithms used in our approach.
-
-The scripts/ directory contains various scripts used for data processing, model training, and result generation.
-
-### Results
-
-The results/ directory contains our prediction results:
-
-- Cross-validation predictions
-- Final predictions for the competition
-
-### Documentation
-
-The final_presentation/ directory contains our key documentation:
-
-- SUMMARY.md: High-level overview of our approach and key findings
-- technical_implementation_report.md: Detailed technical implementation report with comprehensive documentation of all key components
-- FEATURES.md: Detailed description of features used in our models
-- MODELS.md: Detailed description of models used in our approach
-- completed_work_summary.md: Summary of completed work and key achievements
-
-## Key Technical Components
-
-Our implementation includes several advanced technical components that are thoroughly documented in final_presentation/technical_implementation_report.md:
-
-- FLAb (Fragment Library for Antibody) Framework
-- Multi-Channel Information Theory Framework
-- AbLEF (Antibody Language Ensemble Fusion)
-- Neural-ODEs for temporal dynamics modeling
-- Cross-Attention Mechanisms for multi-modal fusion
-- Graph Neural Networks for structure-based predictions
-- Heavy-Light Coupling Analysis
-- Uncertainty Quantification
-- Ensemble Methods
-- Polyreactivity Analysis
-- Protein Language Models
-
-## Usage
-
-To use our code, please refer to the detailed documentation in the final_presentation/ directory. The technical_implementation_report.md file provides comprehensive information about our approach and implementation details.
-
-## Citation
-
-If you use our code or data, please cite our work, the competition organizers, and any relevant literature as indicated in the documentation.

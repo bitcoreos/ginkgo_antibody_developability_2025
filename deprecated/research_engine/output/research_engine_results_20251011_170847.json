@@ -1,0 +1,56 @@
+{
+  "topic": "Literature review: salt-mediated retention mechanics and Kyte\u2013Doolittle modulation patterns",
+  "system_prompt": "You are a specialized biology research agent.",
+  "results": {
+    "llama-3.2-3b": {
+      "status": "success",
+      "neuron": "llama-3.2-3b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:15.702686"
+    },
+    "qwen3-4b": {
+      "status": "success",
+      "neuron": "qwen3-4b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:21.135699"
+    },
+    "llama-3.3-70b": {
+      "status": "success",
+      "neuron": "llama-3.3-70b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:26.413152"
+    },
+    "mistral-31-24b": {
+      "status": "success",
+      "neuron": "mistral-31-24b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:32.216500"
+    },
+    "venice-uncensored": {
+      "status": "success",
+      "neuron": "venice-uncensored",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:42.032742"
+    },
+    "qwen3-235b": {
+      "status": "success",
+      "neuron": "qwen3-235b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T17:08:47.467501"
+    }
+  },
+  "dry_run": true,
+  "saved_at": "2025-10-11T17:08:47.467646"
+}

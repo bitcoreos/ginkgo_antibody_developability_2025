@@ -1,0 +1,56 @@
+{
+  "topic": "Hydrophobicity / HIC Risk Mapping",
+  "system_prompt": "You are a specialized biology research agent.",
+  "results": {
+    "llama-3.2-3b": {
+      "status": "success",
+      "neuron": "llama-3.2-3b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:13.914910"
+    },
+    "qwen3-4b": {
+      "status": "success",
+      "neuron": "qwen3-4b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:19.999820"
+    },
+    "llama-3.3-70b": {
+      "status": "success",
+      "neuron": "llama-3.3-70b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:27.543220"
+    },
+    "mistral-31-24b": {
+      "status": "success",
+      "neuron": "mistral-31-24b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:35.775495"
+    },
+    "venice-uncensored": {
+      "status": "success",
+      "neuron": "venice-uncensored",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:41.047118"
+    },
+    "qwen3-235b": {
+      "status": "success",
+      "neuron": "qwen3-235b",
+      "response": {
+        "simulated": true
+      },
+      "timestamp": "2025-10-11T16:57:47.864491"
+    }
+  },
+  "dry_run": true,
+  "saved_at": "2025-10-11T16:57:47.864773"
+}

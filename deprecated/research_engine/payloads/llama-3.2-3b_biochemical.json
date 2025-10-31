@@ -1,0 +1,9 @@
+{
+  "lens": "biochemical",
+  "focus": "molecular features that determine antibody developability",
+  "questions": [
+    "What specific molecular features in antibody sequences correlate with developability metrics?",
+    "How do amino acid properties influence AC-SINS_pH7.4, PR_CHO, HIC, Tm2, and Titer?",
+    "What hidden patterns in CDR regions affect biochemical stability?"
+  ]
+}

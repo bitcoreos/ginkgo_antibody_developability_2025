@@ -1,0 +1,9 @@
+{
+  "lens": "clinical",
+  "focus": "real-world outcomes and applications",
+  "questions": [
+    "How do developability metrics translate to clinical outcomes?",
+    "What are the real-world consequences of poor developability in therapeutic antibodies?",
+    "How do clinical requirements shape developability optimization?"
+  ]
+}

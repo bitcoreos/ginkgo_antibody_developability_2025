@@ -1,0 +1,59 @@
+{
+  "payload": {
+    "researchTopic": "Hidden features in antibody sequences that influence developability using Hidden Markov Models",
+    "timestamp": "2025-10-06T06:34:56.083339"
+  },
+  "models": [
+    "llama-3.2-3b",
+    "qwen3-4b",
+    "llama-3.3-70b",
+    "mistral-3124b",
+    "venice-uncensored",
+    "qwen-3-235b"
+  ],
+  "results": {
+    "qwen3-4b": {
+      "status": "error",
+      "model": "qwen3-4b",
+      "status_code": 500,
+      "message": "{\"detail\":\"An unexpected error occurred during session creation: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint \\\"sessions_active_api_key_unique\\\"\\nDETAIL:  Key (api_key_id, is_active)=(33, t) already exists.\\n[SQL: INSERT INTO sessions (id, user_id, api_key_id, model, type, created_at, expires_at, is_active) VALUES ($1::VARCHAR, $2::INTEGER, $3::INTEGER, $4::VARCHAR, $5::VARCHAR, $6::TIMESTAMP WITHOUT TIME ZONE, $7::TIMESTAMP WITHOUT TIME ZONE, $8::BOOLEAN)]\\n[parameters: ('0xa299128ba82fc33cfcd6d461ec2a1111e856447183209f79c2201922ca27bc27', 16, 33, '0xeb588720d3b247d8cf9a742f5499e6e838b7af144abc763fe47212e16b7c9077', 'automated', datetime.datetime(2025, 10, 6, 6, 35, 3, 777622), datetime.datetime(2025, 10, 6, 7, 35, 3, 777131), True)]\\n(Background on this error at: https://sqlalche.me/e/20/gkpj)\"}",
+      "timestamp": "2025-10-06T06:35:03.827939"
+    },
+    "mistral-3124b": {
+      "status": "error",
+      "model": "mistral-3124b",
+      "status_code": 500,
+      "message": "{\"detail\":\"An unexpected error occurred during session creation: Error from proxy router after 3 attempts: Server error '500 Internal Server Error' for url 'http://routerapi.mor.org:8082/blockchain/models/0x0de3b81168782e72b5f156f4435647a47b31c374a489657e1ad006649bca937f/session'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\"}",
+      "timestamp": "2025-10-06T06:35:04.001419"
+    },
+    "venice-uncensored": {
+      "status": "error",
+      "model": "venice-uncensored",
+      "status_code": 500,
+      "message": "{\"detail\":\"An unexpected error occurred during session creation: Error from proxy router after 3 attempts: Server error '500 Internal Server Error' for url 'http://routerapi.mor.org:8082/blockchain/models/0x0fef636103254735e5eae4b518211626c2847b581f76d4e3a3d145f5d68fe656/session'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\"}",
+      "timestamp": "2025-10-06T06:35:04.011154"
+    },
+    "qwen-3-235b": {
+      "status": "error",
+      "model": "qwen-3-235b",
+      "status_code": 500,
+      "message": "{\"detail\":\"An unexpected error occurred during session creation: Error from proxy router after 3 attempts: Server error '500 Internal Server Error' for url 'http://routerapi.mor.org:8082/blockchain/models/0x0de3b81168782e72b5f156f4435647a47b31c374a489657e1ad006649bca937f/session'\\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\"}",
+      "timestamp": "2025-10-06T06:35:05.933109"
+    },
+    "llama-3.3-70b": {
+      "status": "error",
+      "model": "llama-3.3-70b",
+      "status_code": 500,
+      "message": "{\"detail\":\"An unexpected error occurred during session creation: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint \\\"sessions_active_api_key_unique\\\"\\nDETAIL:  Key (api_key_id, is_active)=(33, t) already exists.\\n[SQL: INSERT INTO sessions (id, user_id, api_key_id, model, type, created_at, expires_at, is_active) VALUES ($1::VARCHAR, $2::INTEGER, $3::INTEGER, $4::VARCHAR, $5::VARCHAR, $6::TIMESTAMP WITHOUT TIME ZONE, $7::TIMESTAMP WITHOUT TIME ZONE, $8::BOOLEAN)]\\n[parameters: ('0x974217e3b634ce3751ebec6ef74b9c6cf68baf206ef09a735454172fcc0e90ed', 16, 33, '0x80a27e51ee66d4a19f3d8dfdeb86033b4118d9410eaf0ef7db591524797d45c2', 'automated', datetime.datetime(2025, 10, 6, 6, 35, 6, 809067), datetime.datetime(2025, 10, 6, 7, 35, 6, 808603), True)]\\n(Background on this error at: https://sqlalche.me/e/20/gkpj)\"}",
+      "timestamp": "2025-10-06T06:35:06.858665"
+    },
+    "llama-3.2-3b": {
+      "status": "error",
+      "model": "llama-3.2-3b",
+      "status_code": 504,
+      "message": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n",
+      "timestamp": "2025-10-06T06:35:56.307322"
+    }
+  },
+  "completion_time": "2025-10-06T06:35:56.308691"
+}
