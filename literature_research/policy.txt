@@ -1,0 +1,15 @@
+# Deprecation Policy
+
+## When to Deprecate
+1. Files that are no longer used in current workflow
+2. Files that have been superseded by newer versions
+3. Files that were created with incorrect data
+
+## Deprecation Process
+1. Move files to deprecated directory
+2. Document reason for deprecation
+3. Note date of deprecation
+4. Reference to replacement file if applicable
+
+## Current Deprecated Files
+Files in /a0/bitcore/workspace/deprecated/ should follow this policy.

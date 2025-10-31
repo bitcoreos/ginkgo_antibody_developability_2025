@@ -1,0 +1,8 @@
+BITCORE 2025 Validation Plan - Key Steps:
+1. Trace all data transformations
+2. Verify each algorithm's output
+3. Check data integrity at each step
+4. Validate submission file formats
+5. Recursively validate process
+6. Test error handling
+7. Generate validation report

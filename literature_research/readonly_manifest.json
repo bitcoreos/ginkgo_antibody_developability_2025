@@ -1,0 +1,14 @@
+{
+  "primary_sequences": {
+    "path": "/workspaces/bitcore/workspace/data/sequences/GDPa1_v1.2_sequences.csv",
+    "readonly": true,
+    "description": "GDPa1 v1.2 primary training sequences",
+    "modification_policy": "prohibited"
+  },
+  "holdout_sequences": {
+    "path": "/workspaces/bitcore/workspace/data/sequences/heldout-set-sequences.csv",
+    "readonly": true,
+    "description": "Competition holdout test sequences",
+    "modification_policy": "prohibited"
+  }
+}

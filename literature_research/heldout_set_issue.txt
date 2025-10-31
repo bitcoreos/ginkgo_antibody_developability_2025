@@ -1,0 +1,16 @@
+# Heldout Set Data Issue
+
+## Problem
+The heldout set file contained an extra duplicated column.
+
+## Root Cause
+An unknown processing step added an antibody_name column.
+
+## Impact
+All model work between Oct 11-16 used incorrect data.
+
+## Evidence
+File hash mismatch: 0e80b563... vs. correct: cab33837...
+
+## Resolution
+File restored from backup on 2025-10-18.

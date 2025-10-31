@@ -1,0 +1,10 @@
+# Work That Needs Redone
+
+Due to the heldout set data integrity issue, the following work needs to be redone:
+
+1. Feature engineering for heldout set
+2. Model training and predictions
+3. Submission file generation
+4. Any analysis or reports based on previous model outputs
+
+All work performed between October 11-16 needs to be redone with correct data.
