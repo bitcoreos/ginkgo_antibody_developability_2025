@@ -13,7 +13,13 @@ This repository is organized as follows:
 - **Root Directory**: Contains key documentation and summary files
 - **documentation/competition**: Competition overview files
 - **documentation/reports**: Technical reports and research documents
-- **data/holdout_predictions**: Holdout set predictions
+- **data/**: Organized data files
+  - **data/datasets**: Main competition datasets
+  - **data/features**: Feature matrices and related files
+  - **data/predictions**: Model predictions organized by type
+  - **data/model_outputs**: Detailed model outputs
+  - **data/imputation**: Target imputation files
+  - **data/intermediate_results**: Intermediate analysis results
 - **models/baselines**: Baseline model reports
 - **code/**: Implementation of our FLAb framework and supporting code
 - **data/**: Dataset files including competition targets and predictions
