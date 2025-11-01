@@ -83,6 +83,7 @@ Detailed usage instructions are included in each module.
 ## Citations
 
 If you use our code or data, please cite our work and the competition organizers.
+- **[citations.md](citations.md)**: Key citations relevant to our implementation organized by component
 
 ## License
 
