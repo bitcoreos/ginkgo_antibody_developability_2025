@@ -11,6 +11,10 @@ Our approach focuses on improving feature quality through advanced feature engin
 This repository is organized as follows:
 
 - **Root Directory**: Contains key documentation and summary files
+- **documentation/competition**: Competition overview files
+- **documentation/reports**: Technical reports and research documents
+- **data/holdout_predictions**: Holdout set predictions
+- **models/baselines**: Baseline model reports
 - **code/**: Implementation of our FLAb framework and supporting code
 - **data/**: Dataset files including competition targets and predictions
 - **dataset/**: Additional dataset files
@@ -30,20 +34,20 @@ This repository is organized as follows:
 - `MODELS.md`: Overview of our modeling approach
 - `COMPLETED_WORK_SUMMARY.md`: Summary of completed work
 
-### Competition Overview
-- `2025 AbDev Competition Overview.md`: Overview of the competition
-- `GDPa1 Dataset Overview.md`: Overview of the competition dataset
-- `How to Train an Antibody Developability Model.md`: Guide to training models
+- ### Competition Overview
+- `documentation/competition/2025 AbDev Competition Overview.md`: Overview of the competition
+- `data/GDPa1 Dataset Overview.md`: Overview of the competition dataset
+- `documentation/reports/How to Train an Antibody Developability Model.md`: Guide to training models
 
-### Data Files
-- `gdpa1_competition_targets_imputed.csv`: Imputed competition targets
+- ### Data Files
+- `data/gdpa1_competition_targets_imputed.csv`: Imputed competition targets
 - `cv_predictions_latest_corrected.csv`: Cross-validation predictions
-- `gdpa1_holdout_predictions_corrected_ids_20251017_014953.csv`: Holdout set predictions
+- `data/holdout_predictions/gdpa1_holdout_predictions_corrected_ids_20251017_014953.csv`: Holdout set predictions
 
-### Reports
-- `polyreactivity_research_report.md`: Polyreactivity analysis
-- `hic_baseline_model_report.md`: HIC baseline model report
-- `ac_sins_baseline_model_report.md`: AC-SINS baseline model report
+- ### Reports
+- `documentation/reports/polyreactivity_research_report.md`: Polyreactivity analysis
+- `models/baselines/hic_baseline_model_report.md`: HIC baseline model report
+- `models/baselines/ac_sins_baseline_model_report.md`: AC-SINS baseline model report
 
 ## Approach
 
